@@ -1,0 +1,15 @@
+
+:root {
+    --color-primary: #28a745;
+    --color-secondary: #0284d0;
+}
+
+/* Text colors */
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-secondary {
+    color: #0284d0;
+}
