@@ -11,5 +11,5 @@
 }
 
 .text-secondary {
-    color: #0284d0;
+    color: var(--color-secondary);;
 }
