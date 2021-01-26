@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>EdgeLedger | Businness Solutions</title>
-</head>
-<body id="home">
+  </head>
+  <body id="home">
     <header class="hero">
-        <div id="navbar" class="navbar">
-            <h1 class="logo">
-                <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
-            </h1>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#cases" class="nav__link">Cases</a></li>
-                    <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="hero__content">
-            <h1>The Sky is the Limit</h1>
-            <p>We provide world class financial assistance</p>
-            <a href="#about" class="btn"><i class="fas fa-chevron-right"></i>Read more</a>
-        </div>
+      <div id="navbar" class="navbar">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
+          >Ledger
+        </h1>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#cases" class="nav__link">Cases</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">The Sky is the Limit</h1>
+        <p class="hero__paragraph">
+          We provide world class financial assistance
+        </p>
+        <a href="#about" class="btn btn-primary"
+          ><i class="fas fa-chevron-right hero__icon"></i> Read more</a
+        >
+      </div>
     </header>
-</body>
+
+    <main>
+      <section id="services" class="services bg-light">
+        <div class="flex-items">
+          <div class="service">
+            <i class="fas fa-university fa-2x service__icon"></i>
+            <div class="service__content">
+              <h3 class="service__heading">Investment Banking</h3>
+              <p class="service__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus, odio.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <i class="fas fa-book-reader fa-2x service__icon"></i>
+            <div class="service__content">
+              <h3 class="service__heading">Portfolio Manager</h3>
+              <p class="service__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus, odio.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <i class="fas fa-pencil-alt fa-2x service__icon"></i>
+            <div class="service__content">
+              <h3 class="service__heading">Tax & Custodial</h3>
+              <p class="service__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus, odio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="solutions flex-columns">
+        <div class="row">
+          <div class="solution-left column">
+            <div class="column-1">
+              <img class="solution__img" src="./img/home/people.jpg" alt="" />
+            </div>
+          </div>
+          <div class="solution-right column">
+            <div class="column-2 bg-primary">
+              <h4 class="solution__heading-secondary">
+                What you are looking for
+              </h4>
+              <h2 class="solution__heading-main">
+                We provide bespoek solutions
+              </h2>
+              <p class="solution__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis cumque cum magni deserunt temporibus modi culpa animi
+                voluptatum nam ratione ex dolorum, ad tempora aliquid quisquam
+                provident vitae placeat vero?
+              </p>
+              <a href="#" class="btn btn-outline"
+                ><i class="fas fa-chevron-right hero__icon"> Read more</i></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
