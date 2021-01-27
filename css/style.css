@@ -239,3 +239,37 @@ img {
 .social__link:hover {
   color: var(--color-primary);
 }
+
+/* ---------- MEDIA QUERY ---------- */
+/* 48em = 768px */
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 12rem;
+    padding: 2rem;
+  }
+
+  .nav__link {
+    padding: 1rem 1rem;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column-2 {
+    padding: 4rem;
+  }
+
+  .team__img {
+    width: 70%;
+    margin: 0 auto 1rem;
+  }
+}
