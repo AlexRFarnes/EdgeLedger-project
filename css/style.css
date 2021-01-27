@@ -233,6 +233,35 @@ img {
   border: 1px solid var(--color-primary);
 }
 
+/* ---------- BLOG POSTS ---------- */
+
+/* ---------- POST ---------- */
+.post {
+  padding: 5rem 3rem;
+  max-width: 70%;
+
+  margin: 0 auto;
+}
+
+.post__heading {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog__meta--post {
+  margin-bottom: 3rem;
+}
+
+.post__img {
+  max-width: 70rem;
+  display: block;
+  margin: 0 auto 3rem;
+}
+
+.post__paragrpah {
+  margin-bottom: 2.5rem;
+}
 /* ---------- FOOTER ---------- */
 .footer {
   display: flex;
@@ -255,11 +284,6 @@ img {
 
 .social__link:hover {
   color: var(--color-primary);
-}
-
-/* ---------- BLOG POSTS ---------- */
-
-.blog__meta {
 }
 
 /* ---------- MEDIA QUERY ---------- */
