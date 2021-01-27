@@ -134,52 +134,68 @@
           </p>
           <div class="row gap">
             <div class="column gap">
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases1.jpg"
-                alt=""
-              />
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases2.jpg"
-                alt=""
-              />
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases2.jpg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="column gap">
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases3.jpg"
-                alt=""
-              />
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases4.jpg"
-                alt=""
-              />
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases4.jpg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="column gap">
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases5.jpg"
-                alt=""
-              />
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases6.jpg"
-                alt=""
-              />
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases5.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases6.jpg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="column gap">
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases7.jpg"
-                alt=""
-              />
-              <img
-                class="cases__img column__img"
-                src="./img/cases/cases8.jpg"
-                alt=""
-              />
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases7.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="column__img-wrapper">
+                <img
+                  class="cases__img column__img"
+                  src="./img/cases/cases8.jpg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </header>
@@ -222,9 +238,100 @@
           <p class="section__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, non!
           </p>
-          <div class="flex-items"></div>
+          <div class="flex-items">
+            <div class="team__member">
+              <img class="team__img" src="./img/team/person1.jpg" alt="" />
+              <h4 class="section__heading-secondary">Steve Chen</h4>
+              <p class="section__description">Finance Analyst</p>
+            </div>
+            <div class="team__member">
+              <img class="team__img" src="./img/team/person2.jpg" alt="" />
+              <h4 class="section__heading-secondary">Jane Smith</h4>
+              <p class="section__description">Business and Portfolio Manager</p>
+            </div>
+            <div class="team__member">
+              <img class="team__img" src="./img/team/person3.jpg" alt="" />
+              <h4 class="section__heading-secondary">Jonh Schmidt</h4>
+              <p class="section__description">Marketing Head</p>
+            </div>
+          </div>
         </header>
       </section>
+
+      <section id="contact" class="contact">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img
+                class="solution__img column__img"
+                src="./img/home/contact.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2 class="section__heading-main">Request Callback</h2>
+              <form action="#" class="callback-form">
+                <div class="form-control">
+                  <label for="name" class="form__label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form__input"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email" class="form__label">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form__input"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="phone" class="form__label">Phone</label>
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    class="form__input"
+                    placeholder="Phone"
+                  />
+                </div>
+                <input
+                  type="submit"
+                  value="Send"
+                  id="submit"
+                  class="btn btn-primary"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#" class="social__link"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+        <a href="#" class="social__link"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a href="#" class="social__link"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
+        <a href="#" class="social__link"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+      </div>
+      <p>Copyright &copy;2021 - EdgeLedger</p>
+    </footer>
   </body>
 </html>

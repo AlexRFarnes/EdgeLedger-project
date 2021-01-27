@@ -174,3 +174,68 @@ img {
 
 /* ---------- BLOG ---------- */
 
+/* ---------- TEAM MEMBERS ---------- */
+
+.team__img {
+  border-radius: 50%;
+}
+
+/* ---------- CONTACT ---------- */
+
+.callback-form {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form__input {
+  width: 100%;
+  padding: 0.4rem;
+  height: 4rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.form__input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.form__input:focus {
+  border: 1px solid var(--color-primary);
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.social__link {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.social__link:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.social__link:hover {
+  color: var(--color-primary);
+}
