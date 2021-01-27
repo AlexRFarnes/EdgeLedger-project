@@ -136,6 +136,23 @@ img {
   margin-right: 0.5rem;
 }
 
+/* ---------- Hero Blog ---------- */
+
+.hero--blog {
+  background-image: url(../img/home/blog.jpg);
+  height: 30vh;
+}
+
+.hero--blog::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
 /* ---------- SERVICES ---------- */
 .services {
   padding: 3rem;
@@ -238,6 +255,11 @@ img {
 
 .social__link:hover {
   color: var(--color-primary);
+}
+
+/* ---------- BLOG POSTS ---------- */
+
+.blog__meta {
 }
 
 /* ---------- MEDIA QUERY ---------- */
