@@ -239,7 +239,6 @@ img {
 .post {
   padding: 5rem 3rem;
   max-width: 70%;
-
   margin: 0 auto;
 }
 
@@ -317,5 +316,9 @@ img {
   .team__img {
     width: 70%;
     margin: 0 auto 1rem;
+  }
+
+  .post {
+    max-width: 90%;
   }
 }
