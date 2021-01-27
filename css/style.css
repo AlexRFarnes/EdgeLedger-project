@@ -65,6 +65,11 @@ img {
   position: fixed;
   top: 0;
   padding: 0 3rem;
+  transition: all 0.3s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .logo {
